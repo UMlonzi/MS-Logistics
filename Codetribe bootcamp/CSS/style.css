@@ -1,0 +1,77 @@
+#headerTable {
+    width: 100%;
+    
+}
+.logo {
+    width: 200px;
+ 
+}
+.nav {
+    margin-right: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.a {
+    margin-right: 16px;
+
+}
+#video {
+    width: 100%;
+   
+  
+
+}
+#mainTable {
+    
+ 
+      border-collapse:border-collapse;
+}
+
+
+.boiBox {
+    width: 70%;
+    text-align: left;
+
+}
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+     
+}
+.footerText {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+}
+footer {
+    background-color: blue;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+ padding: 50px;
+ 
+}
+
+.header1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    
+}
+.para { font-family: 'Raleway', sans-serif;
+  
+}
+.form{
+    font-family: 'Roboto', sans-serif;
+}
+#cname {
+    height: 70px;
+}
+.cMain{
+    background-image: url('img_truck.jpg');
+}
+
