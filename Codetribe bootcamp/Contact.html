@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header>
+        <header>
         
         <table  id="headerTable" >
             <tr>
@@ -19,6 +19,7 @@
                         <a href="MS%20Logistics.html">Home</a>
                         <a href="About.html">About Us</a>
                         <a href="#">Contact Us</a>
+                        <a href="personal information.html"> Usi Mlonzi</a>
             
                       
                     </nav>
@@ -28,10 +29,11 @@
         </table>
         
     </header>
-    <main class="cMain">
+    <main style="background-image: url('img_truck.jpg');">
         
-        <h1 class="header1">Contact Us</h1>
-        <form action="/action_page.php" class="form">
+        <h1 id="header">Contact Us</h1>
+        <form  action="https://formspree.io/f/mqknqngj"
+        method="POST" class="form">
             <h2> Enquiry Form </h2>
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" value=""><br>
@@ -48,16 +50,19 @@
             <input class="btn" type="reset">
           </form> 
       
-                    <h2 class="header1">MS Logistics Contact information</h2>
-                    <p class="para">160 Main street <br> Marshalltown <br> Johannesburg <br>PO Box 2001 <br> South Africa </p>
+                    <h2 id="header1"></h2>
+                    <p id="para3"> </p>
 
       
        
-        <h3 class="header1">Phone 021 310 2267</h3>
-        <p class="para">Email  info@MSlogistics.co.za <br>
+        <h3 id="header1"></h3>
+        <p id="para4"> <br>
             
-            Operating Hrs Mon-Fri 0700 – 19.00 hrs</p>
+           </p>
             <img src="./assets/imgs/download (1).jpg">
+
+    
+              
     </main>
     <footer class="footerText">
         <p>www.Mslogistics.co.za</p>
@@ -66,6 +71,16 @@
         <p>Phone Number: 021 310 2267</p>
 
 </footer>
+<script>
+    document.getElementById('header1').innerHTML = 'MS Logistics Contact information'
+    document.getElementById('para3').innerHTML = '160 Main street <br> Marshalltown <br> Johannesburg <br>PO Box 2001 <br> South Africa </p>'
+    document.getElementById('header1').innerHTML = 'Phone 021 310 2267'
+    document.getElementById('para4').innerHTML = 'Email  info@MSlogistics.co.za <br>  Operating Hrs Mon-Fri 0700 – 19.00 hrs '
+
+ 
+
+</script>
+
 
 </body>
 </html>
